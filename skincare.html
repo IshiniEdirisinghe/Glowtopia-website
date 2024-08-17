@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowtopia - Skincare</title>
+    <link rel="icon" type="image/png" href="https://clipart-library.com/images/kT85qG9Lc.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/outright-2" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Glowtopia</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skincare.html">Skincare</a></li>
+                <li><a href="haircare.html">Haircare</a></li>
+                <li><a href="diet.html">Recipes</a></li>
+                <li><a href="tips.html">Tips & Tricks</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <section class="center-container" style="padding-left: 5%; padding-right: 5%;">
+    <div>
+        <div class="skincare">         
+                <img src="https://i.pinimg.com/736x/ae/d6/f6/aed6f66488231382f02896879994e421.jpg" width="500px">
+        </div>
+        <br>
+        <div class="skincare" style="background-color: #F9E1D9; width: 500px; height: 150px;">
+            <a href="#" class="link-container" onclick="openAcne()">
+                <img src="https://i.pinimg.com/564x/f8/c1/ed/f8c1ed6bc6de0b1d92942cac028e48f9.jpg">
+                <h3>For Acne Skin</h3>
+            </a>
+        </div>
+        <br>
+        <div class="skincare" style="background-color: #fffacf; width: 500px; height: 150px;">
+            <a href="#" class="link-container" onclick="openOily()">
+                <img src="https://i.pinimg.com/564x/73/dd/be/73ddbefec9c1ea0dda3f1de5b0e575f1.jpg">
+                <h3>For Oily Skin</h3>
+            </a>
+        </div>
+        <br>
+        <div class="skincare" style="background-color: #ffdcc4; width: 500px; height: 150px;">
+            <a href="#" class="link-container" onclick="openDry()">
+                <img src="https://i.pinimg.com/564x/30/15/bf/3015bf0194799e9f58a268a758b67fb8.jpg">
+                <h3>For Dry Skin</h3>
+            </a>
+        </div>
+        <br>
+        <div class="skincare" style="background-color: #ffd6f8; width: 500px; height: 150px;">
+            <a href="#" class="link-container" onclick="openSen()">
+                <img src="https://i.pinimg.com/736x/ad/17/dc/ad17dc0040a4b705b2f66e02477c2e39.jpg">
+                <h3>For Sensitive Skin</h3>
+            </a>
+        </div>
+       
+      
+        
+    </div>
+    </section>
+
+    <br>
+    <div class="abouts">
+        <br>
+        <a href="index.html">
+            <h3>Home</h3>
+        </a>
+        <a href="about.html">
+            <h3>About Us</h3>
+        </a>
+        <a href="about.html">
+            <h3>Contact</h3>
+        </a>  
+        <br>  
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Glowtopia</p>
+    </footer>
+
+    <!-- The Modal for acne -->
+    <div id="acne" class="modal">
+        <div class="modal-content" style="background-color: #F9E1D9;">
+            <span class="close" onclick="closeAcne()">&times;</span>
+            
+            <p>Causes of acne...</p>
+            <ul>
+                &#127827;Hormonal Changes<br>
+                &#127827;Medications<br>
+                &#127827;High Carbohydrated Diets<br>
+                &#127827;Greasy Cosmetics<br>
+                &#127827;Skim Milk<br>
+                &#127827;Stress<br>
+                &#127827;Refined Sugary Food<br>
+                &#127827;Face Masks<br>
+                &#127827;Dirty Pillowcases<br>
+                &#127827;Unsanitary Tools
+            </ul>
+            <p>Skincare routine for acne...</p>
+            <ul>
+                &#127774;Morning
+                <ul>
+                    &#127827;Foaming facial wash <br>
+                    &#127827;BHA toner <br>
+                    &#127827;Spot treat with Benzoyl peroxide<br>
+                    &#127827;Active serums <br>
+                    &#127827;Moisturiser <br>
+                    &#127827;Sunscreen (SPF 30 or above) <br>
+                </ul>
+                &#127771;Night
+                <ul>
+                    &#127827;Oil base cleanse <br>
+                    &#127827;Water based cleanse <br>
+                    &#127827;Retinoid <br>
+                    &#127827;Moisturiser <br>
+                    &#127827;Healing ointment <br>
+                </ul>
+            </ul>
+            <img src="https://i.pinimg.com/564x/3b/46/5c/3b465cc11005de4561abf0b239e4efff.jpg" width="500px">
+            <img src="https://i.pinimg.com/564x/92/44/b2/9244b207e04820bb7aa75640b8b29597.jpg" width="500px">
+        </div>
+    </div>
+
+     <!-- The Modal for oily skin -->
+     <div id="oily" class="modal">
+        <div class="modal-content" style="background-color: #fffacf;">
+            <span class="close" onclick="closeOily()">&times;</span>
+            
+           
+            <p>Skincare routine for oily skin...</p>
+            <ul>
+                &#127774;Morning
+                <ul>
+                    &#127819;Foaming liquid cleanser <br>
+                    &#127819;Toner <br>
+                    &#127819;Light weight serum / Essence<br>
+                    &#127819;Eye cream (Optional) <br>
+                    &#127819;Moisturiser <br>
+                    &#127819;Sunscreen / SPF (MUST) <br>
+                </ul>
+                &#127771;Night
+                <ul>
+                    &#127819;Oil base cleanse <br>
+                    &#127819;Gel / Foam based cleanse <br>
+                    &#127819;Toner <br>
+                    &#127819;Serum <br>
+                    &#127819;Eye cream <br>
+                    &#127819;Moisturiser / Night gel <br>
+                </ul>
+            </ul> 
+            <p>Tips for oily Skin...</p>
+            <ul>
+                &#127819;Wash face every morning, evening and after exercise<br>
+                &#127819;Choose skin products that are labeled "oil free" and "noncomedogenic "<br>
+                &#127819;Use a soft face cloth to wash face<br>
+                &#127819;Apply moisturizer daily <br>
+                &#127819;Wear sunscreen outdoors- look for sunscreen that contain zinc oxide and titanium dioxide. Do not use sunscreens that contain fragrance or oils.<br>
+                &#127819;Choose oil free and water based makeup<br>
+                &#127819;Do not sleep in your makeup<br>
+                &#127819;Try to use blotting papers through out the day- gently press the paper to your face don't rub it or it will spread the oils across your face<br>
+                &#127819;Don't touch your face throughout the day<br>
+                
+            </ul>
+            <img src="https://i.pinimg.com/564x/3c/3f/c6/3c3fc64631a9b9dc3365648766695c01.jpg" width="500px">
+        </div>
+    </div>
+
+    <!-- The Modal for dry skin -->
+    <div id="dry" class="modal">
+        <div class="modal-content" style="background-color: #ffe6cf;">
+            <span class="close" onclick="closeDry()">&times;</span>
+            
+           
+            <p>Skincare routine for dry skin...</p>
+            <ul>
+                &#127774;Morning
+                <ul>
+                    &#127825;Hydrating cleanser <br>
+                    &#127825;Hydrating toner <br>
+                    &#127825;Hyaluronic acid serum <br>
+                    &#127825;Vitamin C serum (Optional) <br>
+                    &#127825;Moisturiser <br>
+                    &#127825;Sunscreen / SPF 30+ <br>
+                </ul>
+                &#127771;Night
+                <ul>
+                    &#127825;Hydrating foaming cleanser <br>
+                    &#127825;Hydrating toner <br>
+                    &#127825;Hyaluronic acid serum  <br>
+                    &#127825;Skin renewing retinol serum <br>
+                    &#127825;Eye cream <br>
+                    &#127825;Moisturiser <br>
+                    &#127825;Healing ointment <br>
+                </ul>
+            </ul> 
+            
+            <img src="https://i.pinimg.com/564x/ae/ed/e1/aeede12378fe6aa775d8fef0d6edae6f.jpg" width="500px">
+        </div>
+    </div>
+
+    <!-- The Modal for sensitive skin -->
+    <div id="sensitive" class="modal">
+        <div class="modal-content" style="background-color: #f1cfff;">
+            <span class="close" onclick="closeSen()">&times;</span>
+            
+           
+            <p>Skincare routine for sensitive skin...</p>
+            <ul>
+                &#127774;Morning
+                <ul>
+                    &#127815;Hydrating cleanser <br>
+                    &#127815;Toner <br>
+                    &#127815;Vitamin C serum <br>
+                    &#127815;Moisturiser <br>
+                    &#127815;Sunscreen / SPF 30+ <br>
+                </ul>
+                &#127771;Night
+                <ul>
+                    &#127815;Oil based cleanser <br>
+                    &#127815;Water based cleanser <br>
+                    &#127815;Toner <br>
+                    &#127815;Essence <br>
+                    &#127815;Serum <br>
+                    &#127815;Eye cream <br>
+                    &#127815;Moisturiser <br>
+                </ul>
+            </ul> 
+           
+            <img src="https://i.pinimg.com/564x/c3/0a/24/c30a24fe6a9920f043876b7c22ecce75.jpg" width="500px">
+            <img src="https://i.pinimg.com/564x/3a/02/5c/3a025ca45b7e5e01c016e74892cb68e1.jpg" width="500px">
+        </div>
+    </div>
+
+   
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
